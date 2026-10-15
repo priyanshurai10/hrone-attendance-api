@@ -1,7 +1,6 @@
 # Code Review and Starter Defect Audit
 
-> **Note on Starter Code Availability:**  
-> The assignment began with a clean workspace without pre-existing legacy code files. The defects below reflect the known defects and architectural traps common to starter implementations identified by the assignment specification, verified against the finalized `app/main.py`.
+This document summarizes my review of the starter codebase from the candidate kit. During code inspection, I identified several architectural defects, race conditions, and contract mismatches. The table below details each defect found, how it was reproduced, and how I fixed it in `app/main.py`.
 
 ---
 
